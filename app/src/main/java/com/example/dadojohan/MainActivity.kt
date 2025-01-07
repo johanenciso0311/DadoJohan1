@@ -45,32 +45,32 @@ private val TAG = "MainActivity"
 
     override fun onStart() {
         super.onStart()
-        Log.i(TAG, "onStart: La actividad está a punto de ser visible.")
+        Log.i(TAG, "onStart: La actividad está a punto de ser visible. onStart()")
     }
 
     override fun onResume() {
         super.onResume()
-        Log.i(TAG, "onResume: La actividad está ahora interactiva.")
+        Log.i(TAG, "onResume: La actividad está ahora interactiva. onResume()  ")
     }
 
     override fun onPause() {
         super.onPause()
-        Log.i(TAG, "onPause: La actividad está a punto de entrar en segundo plano.")
+        Log.i(TAG, "onPause: La actividad está a punto de entrar en segundo plano. onPause()")
     }
 
     override fun onStop() {
         super.onStop()
-        Log.i(TAG, "onStop: La actividad ya no es visible.")
+        Log.i(TAG, "onStop: La actividad ya no es visible. onStop()")
     }
 
     override fun onRestart() {
         super.onRestart()
-        Log.i(TAG, "onRestart: La actividad está siendo reiniciada.")
+        Log.i(TAG, "onRestart: La actividad está siendo reiniciada. onRestart()")
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.i(TAG, "onDestroy: La actividad está siendo destruida.")
+        Log.i(TAG, "onDestroy: La actividad está siendo destruida. onDestroy()")
     }
 }
 @Preview
